@@ -34,7 +34,7 @@ function App() {
           <ul>
           {todoList.map((singleTodo, index) => {
             return(
-            <li key={index} className='bg-black mb-5 flex justify-between text-white py-3 rounded-lg px-3'>{singleTodo.todoName}{" "}
+            <li key={index} className='bg-black mb-3 flex justify-between text-white py-3 rounded-lg px-3'>{singleTodo.todoName}{" "}
               <span onClick={() => deleteTodo(singleTodo.todoName)} className='text-red-600 cursor-pointer'>
                 delete
               </span>
